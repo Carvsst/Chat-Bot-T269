@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;/*Espaço interno do elemento*/
+    padding: 0;/*Espaço externo do elemento*/
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif; /*Colocar um tipo de fonte para os textos*/
+}
+
+/*é boa prática criar fora do root?*/
+:root{
+    --branco: #ffffff;
+    --vermelhoComOpacidade: #ecdfdf;
+    --preto: #000000;
+    --cinza:#8d8d8d;
+}
+
+body{
+    background-color: var(--vermelhoComOpacidade);
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+main{
+    background-color: powderblue;
+    width: 90%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+}
