@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatBot</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Página Principal ChatBot</h1>
+    <h1> Pagina Principal - SpiderChat</h1>
 
-
-    <main> 
+    <main>
         <form>
-            
+            <div id="div_conversa">
+                <div class="div_card_conversa div_card_conversa_chat">
+                    <p>Olá, Spider Gwen! Como posso te ajudar hoje?</p>
+                </div>
+            <div id="div_conversa">
+                <div class="div_card_conversa div_card_conversa_user">
+                    <p>Como faço?</p>
+                </div>
+            </div>
+            <footer id="footer_pergunta">
+                <div>
+                    <button type="button">
+                        <img class= "img_class"src="./microfone.svg" alt="icon de microfone">
+                    </button>
+                    <textarea name="" id="" placeholder="Faça uma pergunta, para seu amigo da vizinhança."></textarea>
+
+                    <button type="submit">
+                        <img src="./enviar.svg" alt="icon de enviar" class="img_icon">
+                    </button>
+                </div>
+            </footer>
+
         </form>
-    </main>
+   </main>
 </body>
+
 </html>
